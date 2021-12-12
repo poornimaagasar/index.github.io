@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&family=Irish+Grover&family=Mystery+Quest&family=Share+Tech&family=Ubuntu:wght@300;400&display=swap');
+body
+{
+    position: relative; 
+    width: auto;
+    text-align: center;
+    background:black;
+}
+.navbar-brand
+{
+    font-family: cursive;
+    font-weight: bold;
+}
+.navbar-nav
+{
+    font-family: cursive;
+}
+h1
+{
+    font-family: 'Share Tech', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+body::before 
+{    
+        content: "";
+        background:url('img/2690217.webp') no-repeat;
+        background-size:100% 200%;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.5;
+  
+  
+}
+.nav-link
+{
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+  }
+.nav-link:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+ 
+.nav-link:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .navbar
+  {
+      line-height: 2rem;
+  }   
+ 
+.heading
+{
+    position: relative;
+    line-height: 2rem;
+    text-align: center;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transform:translate(5%,25%);
+    color:white;
+    margin:1rem 2rem;
+}
+p
+{
+    font-size:1.3rem;
+    font-family: monospace;
+    line-height: 3rem;
+    font-weight: bold;
+    margin:1rem;
+}
+.navbar-nav
+{
+      display:flex;
+      justify-content: space-around;
+      width:100%;
+}
+@media(max-width:1000px)
+{
+    ul
+    {
+        padding:1rem 2rem;
+        background:black;
+        color:white;
+        margin-top:6rem;
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+}
+
+
+  
