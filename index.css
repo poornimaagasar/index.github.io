@@ -96,10 +96,14 @@ p
         padding:1rem 2rem;
         background:black;
         color:white;
-        margin-top:5rem;
+        margin-top:4rem;
         display:flex;
         flex-direction: column;
         justify-content: flex-end;
+    }
+    .heading
+    {
+        margin-top:-5rem;
     }
 }
 
